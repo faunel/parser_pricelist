@@ -32,7 +32,7 @@
 
 ```
 [dependencies]
-reqwest = { version = "0.11", default-features = false, features = ["stream", "blocking", "rustls-tls"] }
+reqwest = { version = "0.11", default-features = false, features = ["blocking", "rustls-tls"] }
 ```
 
 ## Запуск
